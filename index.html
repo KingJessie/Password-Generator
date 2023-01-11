@@ -23,6 +23,35 @@
             placeholder="Your Secure Password"
             aria-label="Generated Password"
           ></textarea>
+          <label class="title">Password Settings</label>
+
+        </div>
+        <div class="pw-body">
+          <div class="form-options">
+            <label for="p-length">Password Length (8-30)</label>
+            <input type="range" id="p-length" value="12" min="8" max="30">
+        
+          </div>
+
+          
+
+          <div class="form-options">
+            <label for="p-uppercase">Include Uppercase (A-Z)</label>
+            <input type="checkbox" id="p-uppercase" >
+          </div>
+          <div class="form-options">
+            <label for="p-lowercase">Include Lowercase (a-z)</label>
+            <input type="checkbox" id="p-lowercase" >
+          </div>
+          <div class="form-options">
+            <label for="p-numbers">Include Numbers (0-9)</label>
+            <input type="checkbox" id="p-numbers" >
+          </div>
+          <div class="form-options">
+            <label for="p-symbols">Include Symbols (£%&*)</label>
+            <input type="checkbox" id="p-symbols" >
+          </div>
+
         </div>
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>

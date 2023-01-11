@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+
 
 html,
 body,
@@ -14,7 +17,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: #bbd0ff;
 }
 
 .wrapper {
@@ -30,6 +33,7 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -40,6 +44,7 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+  
 }
 
 .card-header::after {
@@ -71,6 +76,24 @@ header {
   display: block;
   clear: both;
 }
+
+
+.title{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  
+}
+
+#p-length{
+width: 50%;
+
+}
+.form-options{
+font-family: 'Poppins', sans-serif;
+color: grey;
+padding: 10px 0;
+}
+
 
 .btn {
   border: none;
@@ -117,6 +140,7 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
+
 
 @media (max-width: 690px) {
   .btn {
