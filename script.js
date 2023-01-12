@@ -96,6 +96,12 @@ let pNumbers = document.querySelector("#p-numbers");
 let pSymbols = document.querySelector("#p-symbols");
 let pGenerate = document.querySelector("#generate");
 
+// Length input (number of length as user selects on the slider) is updated on the span element (id=sliderNum
+document.querySelector("#p-length").addEventListener("input", function(){
+document.querySelector("#sliderNum").innerHTML = this.value;
+});
+
+
 // Function for getting a random element from an array
 function getRandom(arr) {
   var randomEl = Math.floor(Math.random() * arr.length);

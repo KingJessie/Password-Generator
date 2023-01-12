@@ -19,7 +19,6 @@ body,
 body {
   background: linear-gradient(90deg, #010d31 0%, #35012c 50%);
   background-size: 400% 400%;
-  animation: Gradient 15s ease infinite;
   min-height: calc(100vh - 2rem);
   display: flex;
   flex-direction: column;
@@ -62,57 +61,7 @@ body::after {
     transform: rotate(1turn);
   }
 }
-.st0 {
-  display: none;
-}
-.st1 {
-  display: inline;
-}
-.st2 {
-  opacity: 0.3;
-}
-.st3 {
-  fill: #ffffff;
-}
-.st4 {
-  clip-path: url(#SVGID_2_);
-  fill: #ffffff;
-}
-.st5 {
-  clip-path: url(#SVGID_4_);
-}
-.st6 {
-  clip-path: url(#SVGID_6_);
-}
-.st7 {
-  clip-path: url(#SVGID_8_);
-}
-.st8 {
-  clip-path: url(#SVGID_10_);
-}
-.st9 {
-  fill: none;
-}
-.st10 {
-  clip-path: url(#SVGID_12_);
-}
-.st11 {
-  opacity: 0.7;
-}
-.st12 {
-  clip-path: url(#SVGID_14_);
-}
-.st13 {
-  opacity: 0.2;
-}
-.st14 {
-  clip-path: url(#SVGID_16_);
-}
-.st15 {
-  opacity: 0.3;
-  fill: #ffffff;
-  enable-background: new;
-}
+
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
@@ -143,7 +92,7 @@ h2 {
   background-color: #e5e5e5;
   border-radius: 5px;
   border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  box-shadow: rgb(255, 255, 255) 1px 2px 8px 1px;
   color: hsl(206, 17%, 28%);
   font-size: 18px;
   margin: 0 auto;
@@ -157,10 +106,6 @@ h2 {
   width: 100%;
   background: #e7e9eb;
   height: 2px;
-}
-
-textarea {
-  height: 100px;
 }
 
 .card-body {
@@ -184,6 +129,11 @@ textarea {
   display: block;
   clear: both;
 }
+
+textarea {
+  height: 100px;
+}
+
 
 .inline-img {
   height: 70px;
