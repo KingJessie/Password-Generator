@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/icons8-keepass-64.png">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/icons8-keepass-64.png" />
   </head>
   <body>
-    
     <div class="wrapper">
       <header>
-        <img src="images/icons8-show-password-100 (2).png" alt="image" class="inline-img"> 
+        <img
+          src="images/icons8-show-password-100 (2).png"
+          alt="image"
+          class="inline-img" />
         <h1>Password Generator</h1>
       </header>
       <div class="card">
@@ -24,38 +30,34 @@
             readonly
             id="password"
             placeholder="Your Secure Password"
-            aria-label="Generated Password"
-          ></textarea>
+            aria-label="Generated Password"></textarea>
           <label class="title">Password Settings</label>
         </div>
 
         <div class="pw-body">
           <div class="form-options">
             <label for="p-length">Password Length (8-30)</label>
-            <input type="range" id="p-length" value="12" min="8" max="30">
+            <input type="range" id="p-length" value="12" min="8" max="30" />
             <span>30 max</span>
           </div>
 
-          
-
           <div class="form-options">
             <label for="p-uppercase">Include Uppercase (A-Z)</label>
-            <input type="checkbox" id="p-uppercase" checked>
+            <input type="checkbox" id="p-uppercase" checked />
           </div>
           <div class="form-options">
             <label for="p-lowercase">Include Lowercase (a-z)</label>
-            <input type="checkbox" id="p-lowercase" >
+            <input type="checkbox" id="p-lowercase" />
           </div>
           <div class="form-options">
             <label for="p-numbers">Include Numbers (0-9) </label>
-            <input type="checkbox" id="p-numbers" >
+            <input type="checkbox" id="p-numbers" />
             <span class="slider round"></span>
           </div>
           <div class="form-options">
             <label for="p-symbols">Include Symbols (£%&*)</label>
-            <input type="checkbox" id="p-symbols" >
+            <input type="checkbox" id="p-symbols" />
           </div>
-
         </div>
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>

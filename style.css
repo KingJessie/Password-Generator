@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;800&display=swap");
 
 *,
@@ -6,7 +6,6 @@
 *::after {
   box-sizing: border-box;
 }
-
 
 html,
 body,
@@ -17,36 +16,34 @@ body,
   padding: 0;
 }
 
-
 body {
-  background-color: #35012c;
+  background: linear-gradient(90deg, #010d31 0%, #35012c 50%);
   background-size: 400% 400%;
-animation: Gradient 15s ease infinite;
-min-height: calc(100vh - 2rem);
-display: flex;
-flex-direction: column;
-align-items: stretch;
-justify-content: space-evenly;
-overflow: hidden;
-position: relative; 
+  animation: Gradient 15s ease infinite;
+  min-height: calc(100vh - 2rem);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  overflow: hidden;
+  position: relative;
 }
 
-body::before, 
+body::before,
 body::after {
-content: "";
-width: 50vmax;
-height: 50vmax;
-position: absolute;
-background: rgba(255, 255, 255, 0.07);
-left: -20vmin;
-top: -20vmin;
-animation: morph 15s linear infinite alternate, spin 20s linear infinite;
-z-index: 1;
-will-change: border-radius, transform;
-transform-origin: 30% 30%;
-pointer-events: none; 
+  content: "";
+  width: 50vmax;
+  height: 50vmax;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.07);
+  left: -20vmin;
+  top: -20vmin;
+  animation: morph 15s linear infinite alternate, spin 20s linear infinite;
+  z-index: 1;
+  will-change: border-radius, transform;
+  transform-origin: 30% 30%;
+  pointer-events: none;
 }
-
 
 body::after {
   width: 70vmin;
@@ -55,32 +52,67 @@ body::after {
   right: -10vmin;
   top: auto;
   bottom: 0;
-  animation: morph 10s linear infinite alternate, spin 26s linear infinite reverse;
-  transform-origin: 10% 10%; 
+  animation: morph 10s linear infinite alternate,
+    spin 26s linear infinite reverse;
+  transform-origin: 10% 10%;
 }
-
 
 @keyframes spin {
-to {
-  transform: rotate(1turn); 
-} 
+  to {
+    transform: rotate(1turn);
+  }
 }
-.st0{display:none;}
-.st1{display:inline;}
-.st2{opacity:0.30;}
-.st3{fill:#FFFFFF;}
-.st4{clip-path:url(#SVGID_2_);fill:#FFFFFF;}
-.st5{clip-path:url(#SVGID_4_);}
-.st6{clip-path:url(#SVGID_6_);}
-.st7{clip-path:url(#SVGID_8_);}
-.st8{clip-path:url(#SVGID_10_);}
-.st9{fill:none;}
-.st10{clip-path:url(#SVGID_12_);}
-.st11{opacity:0.7;}
-.st12{clip-path:url(#SVGID_14_);}
-.st13{opacity:0.2;}
-.st14{clip-path:url(#SVGID_16_);}
-.st15{opacity:0.3;fill:#FFFFFF;enable-background:new    ;}
+.st0 {
+  display: none;
+}
+.st1 {
+  display: inline;
+}
+.st2 {
+  opacity: 0.3;
+}
+.st3 {
+  fill: #ffffff;
+}
+.st4 {
+  clip-path: url(#SVGID_2_);
+  fill: #ffffff;
+}
+.st5 {
+  clip-path: url(#SVGID_4_);
+}
+.st6 {
+  clip-path: url(#SVGID_6_);
+}
+.st7 {
+  clip-path: url(#SVGID_8_);
+}
+.st8 {
+  clip-path: url(#SVGID_10_);
+}
+.st9 {
+  fill: none;
+}
+.st10 {
+  clip-path: url(#SVGID_12_);
+}
+.st11 {
+  opacity: 0.7;
+}
+.st12 {
+  clip-path: url(#SVGID_14_);
+}
+.st13 {
+  opacity: 0.2;
+}
+.st14 {
+  clip-path: url(#SVGID_16_);
+}
+.st15 {
+  opacity: 0.3;
+  fill: #ffffff;
+  enable-background: new;
+}
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
@@ -94,13 +126,17 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
-h1{
+h1 {
   color: white;
   font-size: 38px;
 }
 
-h2{
+h2 {
   color: black;
+}
+
+.wrapper{
+  padding-top: 30px;
 }
 
 .card {
@@ -113,7 +149,6 @@ h2{
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
-  
 }
 
 .card-header::after {
@@ -123,7 +158,6 @@ h2{
   background: #e7e9eb;
   height: 2px;
 }
-
 
 textarea {
   height: 100px;
@@ -151,33 +185,29 @@ textarea {
   clear: both;
 }
 
-.inline-img{
+.inline-img {
   height: 70px;
   position: absolute;
   top: 25px;
   left: 25px;
 }
 
-
-.title{
-  font-family: 'Poppins', sans-serif;
+.title {
+  font-family: "Poppins", sans-serif;
   color: black;
-  
 }
 
-#p-length{
-width: 50%;
-height: 10px;
+#p-length {
+  width: 50%;
+  height: 10px;
 }
 
-
-.form-options{
-font-family: 'Poppins', sans-serif;
-color: grey;
-font-size: small;
-padding: 10px 0;
+.form-options {
+  font-family: "Poppins", sans-serif;
+  color: grey;
+  font-size: small;
+  padding: 10px 0;
 }
-
 
 .btn {
   border: none;
@@ -193,6 +223,11 @@ padding: 10px 0;
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+}
+
+
+.btn:active {
+  background-color: black;
 }
 
 button[disabled] {
@@ -224,7 +259,6 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
-
 
 @media (max-width: 690px) {
   .btn {
