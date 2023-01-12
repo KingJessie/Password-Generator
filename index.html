@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    
     <div class="wrapper">
       <header>
         <h1>Password Generator</h1>
@@ -24,13 +25,13 @@
             aria-label="Generated Password"
           ></textarea>
           <label class="title">Password Settings</label>
-
         </div>
+
         <div class="pw-body">
           <div class="form-options">
             <label for="p-length">Password Length (8-30)</label>
             <input type="range" id="p-length" value="12" min="8" max="30">
-        
+            <span>30 max</span>
           </div>
 
           
@@ -44,7 +45,7 @@
             <input type="checkbox" id="p-lowercase" >
           </div>
           <div class="form-options">
-            <label for="p-numbers">Include Numbers (0-9)</label>
+            <label for="p-numbers">Include Numbers (0-9) </label>
             <input type="checkbox" id="p-numbers" >
           </div>
           <div class="form-options">
@@ -58,6 +59,7 @@
         </div>
       </div>
     </div>
+  
     <script src="script.js"></script>
   </body>
 </html>
