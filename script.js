@@ -96,7 +96,8 @@ let pNumbers = document.querySelector("#p-numbers");
 let pSymbols = document.querySelector("#p-symbols");
 let pGenerate = document.querySelector("#generate");
 
-// Length input (number of length as user selects on the slider) is updated on the span element (id=sliderNum
+// The selected password length, as determined by the user's selection on the slider,
+// is reflected and updated on the span element with the id=sliderNum.
 document.querySelector("#p-length").addEventListener("input", function(){
 document.querySelector("#sliderNum").innerHTML = this.value;
 });

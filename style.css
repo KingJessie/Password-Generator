@@ -204,10 +204,20 @@ button[disabled] {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #ff006e;
+  border: 2px dashed black;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+}
+
+footer{
+  color: grey;
+  font-size: 12px;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0px;
 }
 
 @media (max-width: 690px) {
@@ -223,7 +233,18 @@ button[disabled] {
 }
 
 @media (max-width: 500px) {
+
+body::before,
+body::after{
+  display: none;
+}
   .btn {
     font-size: 0.8rem;
   }
+
+  .card{
+    font-size: 12px;
+    box-shadow: none;
+  }
+
 }
