@@ -24,7 +24,7 @@ The password generator is a tool designed for employees to effortlessly generate
 Link: https://kingjessie.github.io/Password-Generator/
 
 
-## What I learned:
+## What I learnt:
 
 I learned how to create web applications using JavaScript, specifically how to select elements from the HTML document by their id using the querySelector() method, and how to attach an event listener to an element such as a button, and execute a desired function when the event occurs using the addEventListener() method.
 
