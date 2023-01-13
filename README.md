@@ -13,10 +13,12 @@ The password generator is a tool designed for employees to effortlessly generate
     • Numeric
     • Special characters
 
-    3. Adjust the length of the password using the slider, with a minimum of 8 characters and a maximum of 30 characters.
+    3. Adjust the length of the password using the slider, with a minimum of 8 characters
+    and a maximum of 30 characters.
     4. Click the button to generate a password.
     
-    Note that at least one character type must be selected for the password to be displayed, otherwise an "undefined" message will appear.
+    Note that at least one character type must be selected for the password to be displayed,
+    otherwise an "undefined" message will appear.
 
 ## Deployment:
 Link: https://kingjessie.github.io/Password-Generator/
@@ -41,7 +43,8 @@ Example 2:
 The event listener is used to ensure that when the user moves the slider to select the desired password length, the number of characters selected is displayed in the span element with the id "sliderNum". As the user changes the slider position, the number shown in the span element will be updated to match the new password length.
 
 ```Javascript
-// The selected password length, as determined by the user's selection on the slider, is reflected and updated on the span element with the id=sliderNum.
+// The selected password length, as determined by the user's selection on the slider,
+// is reflected and updated on the span element with the id=sliderNum.
 document.querySelector("#p-length").addEventListener("input", function(){
 document.querySelector("#sliderNum").innerHTML = this.value;
 });
