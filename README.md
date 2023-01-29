@@ -50,8 +50,12 @@ document.querySelector("#sliderNum").innerHTML = this.value;
 });
 ```
 
-## ScreenShot
-![index.html screenshot](./images/Screenshot-pwG.jpg)
+## Video Demo
+
+
+https://user-images.githubusercontent.com/97694194/215338657-983bee57-6efb-4038-b487-c6b430a38f99.mp4
+
+
 
 ## Acknowledgments:
 
