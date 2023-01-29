@@ -53,8 +53,7 @@ document.querySelector("#sliderNum").innerHTML = this.value;
 ## Video Demo
 
 
-https://user-images.githubusercontent.com/97694194/215338657-983bee57-6efb-4038-b487-c6b430a38f99.mp4
-
+https://user-images.githubusercontent.com/97694194/215339336-a7bbf4c1-1b1b-40c1-8e14-e11f14e6a183.mp4
 
 
 ## Acknowledgments:
