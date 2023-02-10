@@ -57,7 +57,6 @@ document.querySelector("#sliderNum").innerHTML = this.value;
 https://user-images.githubusercontent.com/97694194/215339388-2ce8e018-399a-45c1-a207-4f0cc803a801.mp4
 
 
-
 ## Acknowledgments:
 
 - Mozilla Developer Network: https://developer.mozilla.org/en-US/docs/Web/CSS 
